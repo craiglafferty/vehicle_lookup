@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @vehicle.price %>
+</p>
+
+<p>
+  <strong>Registration:</strong>
+  <%= @vehicle.registration %>
+</p>
+
+<p>
+  <strong>Manufacturer:</strong>
+  <%= @vehicle.manufacturer %>
+</p>
+
+<%= link_to 'Edit', edit_vehicle_path(@vehicle) %> |
+<%= link_to 'Back', vehicles_path %>
