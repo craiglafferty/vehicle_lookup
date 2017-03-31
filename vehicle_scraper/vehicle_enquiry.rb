@@ -6,8 +6,8 @@ page = mechanize.get('https://vehicleenquiry.service.gov.uk/')
 
 form = page.forms.first
 
-form['Vrm'] = 'WV14UKN'
-form['Make'] = 'Ford'
+form['Vrm'] = 'ST02NYN'
+form['Make'] = 'Hyundia'
 form['V5CNumber'] = ''
 
 page = form.submit
